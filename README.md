@@ -11,5 +11,9 @@ from the restaurant either online, or physically before visiting the restaurant.
 
 Author - Victor Kibocha Maina
 
+## Link to site
+
+techvictorke.github.io/menu.github.io/
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/#)
