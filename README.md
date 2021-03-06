@@ -13,7 +13,7 @@ Author - Victor Kibocha Maina
 
 ## Link to site
 
-techvictorke.github.io/menu.github.io/
+[Anitas Kitchen Menu](techvictorke.github.io/menu.github.io/)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/#)
