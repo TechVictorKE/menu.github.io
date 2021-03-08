@@ -11,7 +11,7 @@ from the restaurant either online, or physically before visiting the restaurant.
 
 Author - Victor Kibocha Maina
 
-## Link to site
+## Link to deployed site
 
 [Anitas Kitchen Menu](https://techvictorke.github.io/menu.github.io/)
 
