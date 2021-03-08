@@ -213,10 +213,12 @@ background-color: inherit;
 #column1 {
   float: left;
   width: 50%;
+  color: white;
 }
 
 #column2 {
   width: 50%;
   float: right;
+  color: white;
 }
 
