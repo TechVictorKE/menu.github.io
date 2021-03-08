@@ -5,27 +5,168 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Handlee">
-        <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Manrope">
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
     <body>
 
         <div class="section1">
-            <img src="assets/logoBig.png" alt="Logo">
-            <h3>
+            <img src="assets/logoBig.png" alt="Logo" id="logo">
+            <h3 id="title">
                 We Provide The Best Food</br>At The <strong>Right Price</strong>
             </h3>
         </div>
 
         <div class="row">
             <div class="column">
-                <h2>Happy Hour</h2>
-                <h2>Party Time</h2>
+                <h3>Happy Hour</h3>
+                <h3>Party Time</h3>
             </div>
-            <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
+            <div class="column">
+                <img src="assets/breakfast.jpg" alt="Breakfast">
+            </div>
+            <div class="column">
+                <img src="assets/lunch.jpg" alt="Lunch">
+            </div>
+            <div class="column">
+                <img src="assets/dinner.jpg" alt="Dinner">
+            </div>
           </div>
+
+          <div class="row">
+          <div class="col1">
+          <div class="fast">
+            <img src="assets/fastFood1.jpg" alt="fastFood1">
+            <img src="assets/fastFood2.jpg" alt="fastFood2">
+          </div>
+        </div>
+            <div class="col1">
+                <h3>Fast Food</h3>
+                <h4>You'll love our delicious fast food</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in tincidunt nunc. Curabitur iaculis suscipit orci in rhoncus. Suspendisse pharetra purus faucibus nulla pretium sagittis. Suspendisse ullamcorper lectus vel dictum mattis. Vestibulum urna justo, bibendum eu malesuada quis, efficitur in arcu. In lobortis lorem quis ante accumsan ullamcorper. Vestibulum suscipit enim nisl, sed iaculis quam convallis sed. Fusce mollis dignissim consectetur. Nullam ex mauris, cursus vitae blandit vitae, auctor eu neque. Donec congue luctus leo non congue.
+                Ut tellus justo, tincidunt congue orci vel, sodales auctor erat. In hac habitasse platea dictumst. Maecenas eros diam, dignissim vel libero eget, convallis pretium tellus. Sed hendrerit lectus velit, id rutrum quam ornare quis. Fusce eget cursus lectus. Nullam facilisis sed lorem sit amet tempor. Pellentesque bibendum semper tellus eu volutpat. Maecenas imperdiet non magna non auctor. Phasellus et eros lorem. Suspendisse eleifend, metus sit amet interdum volutpat, turpis sapien interdum erat, auctor gravida sem nibh at lectus.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col1">
+              <div style="text-align:right">
+                <h3>Drinks</h3>
+                <h4>We produce delicious drinks</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus maximus efficitur quam quis mollis. Nunc quis massa a enim pellentesque commodo. Proin et neque id lorem laoreet tincidunt nec ut elit. Fusce ut consequat nisl. Aliquam erat volutpat. Sed ligula nisl, posuere a placerat et, sollicitudin sit amet quam. Donec non mauris auctor libero venenatis blandit. Nulla eget vehicula lectus. Nulla fringilla est justo, vel semper nisl porta non. Donec magna sem, porta quis ipsum non</p>
+              </div>
+          </div>
+          <div class="col1">
+            <div class="fast">
+      
+          <img src="images/drink1.jpg">
+          <img src="images/drink2.jpg">
+        </div>
+          </div>
+        </div>
+
+        <section id="foods">
+        </br>
+        </br>
+        </br>
+        </br>
+          <div class="carousel" id="move">
+          <div class="col2">
+            <div class="tab">
+            <button class="tablinks" onclick="openMenu(event, 'Fast Food')">Fast Food</button>
+            <button class="tablinks" onclick="openMenu(event, 'Drinks')">Drinks</button>
+            <button class="tablinks" onclick="openMenu(event, 'Chicken')">Chicken</button>
+            <button class="tablinks" onclick="openMenu(event, 'Rice')">Rice</button>
+          </div>
+        </div>
+        
+        <!-- Tab content -->
+    <div id="Fast Food" class="tabcontent">
+        <div class="container">
+          <div class="row">
+            <div class="col3">
+              <figure class="img-set">
+                <img src="images/fastfood/chickenBurger.jpg" alt="image of chicken Burger.">
+                <figcaption align="center">Chicken Burger</figcaption>
+              </figure>
+            </div>
+                <div class="row">
+                  <div class="col3">
+              <figure class="img-set">
+                <img src="images/fastfood/beefBurger.jpg" alt="image of Beef Burger.">
+                <figcaption align="center">Beef Burger</figcaption>
+              </figure>
+                </div>
+                <div class="row">
+                  <div class="col4">
+              <figure class="img-set">
+            <img src="images/fastfood/chickenPizza.jpg" alt="image of chickenPizza.">
+            <figcaption align="center">Chicken Pizza</figcaption>
+              </figure>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section>
+  
+        <tr class="row">
+            <div class="feedback-row">
+                <div id="column1">
+          <h3 class="customer-color">Our Happy Customers</h3>
+            <h4>George Richard</h4>
+            <p>Great food! Menu is Awesome,their foods are not only great, but <br>also in the right price. I highly recommend them :)</p>
+            <i class="material-icons chevron icon-color">chevron_left</i><img src="assets/p1.png">
+            <img src="assets/p2.png" id="customer-faces">
+            <img src="assets/p3.png">
+            <i class="material-icons chevron icon-color">chevron_right</i>
+            </div>
+            <div id="column2">
+          <h3 class="customer-color">About Menu</h3>
+          <p>We are menu a little team of 7 members</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus maximus efficitur quam quis mollis. Nunc quis massa a enim pellentesque.</p>
+        </div>
+        </div>
+      </div>
+      </tr>
+
+      <div class="row">
+        <div class="img-wrapper">
+          <div class="subscribe">
+                <p>Get our daily food items delivered to your email</p>
+                <form class="form-inline center-block">
+                <div class="form-group">
+              <input type="text" id="input-email" placeholder="Your Email" required>
+              </div>
+              <button type="submit" class="btn" id="subscribe-btn">Subscribe</button>
+            </form>
+            </div>
+            </div>
+        </div>
+      </div>
+
+      <footer class="row8">
+        <figure class="move">
+        <img src="assets/logo_white.png">
+        <b id="footer-menu">MENU</b>
+        <p>Thats What We Are</p>
+        <figure class="footerlogos">
+        <img src="assets/facebook.png">
+        <img src="assets/pinterest.png" id="pinterest">
+        <img src="assets/twitter.png">
+      </figure>
+        <p id="copyright"> 2016 Menu Restaurant</p>
+
+
+
+      </figure>
+    </footer>
+
+
+          
 
     </body>
 </html>
