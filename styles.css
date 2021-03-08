@@ -1,15 +1,25 @@
-body {
+body{
   text-align: center;
+  font-size: 22px;
+  background-color: #F15A29;
 }
 
 .section1 {
   background-image: url("assets/landing.jpg");
-  background-color: bisque;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 680px;
+  padding-top: 200px;
+  font-size: 32px;
+  line-height: 40px;
+  color: white;
+  font-weight: 100;
 }
 
 .column {
   float: left;
   width: 25%;
+  margin: 0pxS;
 }
 
 /* Clear floats after the columns */
@@ -22,3 +32,192 @@ body {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+  }
+
+ .section1 h3 {
+   padding-top: 50px;
+ }
+
+.fast {display: table;width: 220px;}
+.fast div {display: table-cell; vertical-align: middle; width: 104px; }
+img {margin: 2px;}
+}
+
+/* test */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.pic {
+  padding-right: 0;
+  margin-left: 12%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  box-shadow: 0 0 4px 4px #ccc;
+  margin-right: 0;
+
+}
+.move {
+  color:white;
+  text-align: center;
+  margin-top: 5%;
+}
+#row4 {
+
+}
+.center {
+  margin:0 auto;
+  width: 100px;
+}
+#foods {
+  background-image: url("assets/foodsBg.jpg");
+  height: 70vh;
+  width: 100%;
+  margin-bottom: 40px;
+}
+#foods .tab{
+ position: relative;
+ border: 1px;
+ border-color: inherit;
+}
+.tabcontent {
+  background-color: white;
+  width:80%;
+  margin-right: 100px;
+}
+#move{
+  margin-left: 20%;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 80%;
+}
+.tab button {
+text-align: center;
+background-color: inherit;
+    width:70%
+    float: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: white;
+    color: #F15A29;
+}
+
+
+.feedback-row {
+  width: 74%;
+  margin-left: 13%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  box-shadow: 0 0 4px 4px #ccc;
+}
+#column1 {
+  margin: 0;
+  width: 53%;
+  margin-top: 2%;
+  margin-right: 0;
+  text-align: center;
+  margin-left: 3%;
+  padding-left: 3%;
+  padding-right: 1%
+}
+#column2 {
+  border-left: 2px solid #ccc;
+  margin-left: 1%;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 1;
+  width: 37%;
+  margin-top: 2%;
+  margin-right: 1%;
+  margin-bottom: 3%;
+
+}
+.customer-color {
+  color:  #F15A29;
+}
+#customer-faces {
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.icon-color {
+  color: #F15A29;
+  vertical-align: middle;
+}
+.row8 {
+  background-color: #F15A29;
+  height: 50vh;
+
+
+}
+.bg{
+  background-image: url("assets/foodsBg.jpg");
+}
+
+.img-wrapper {
+  background-image: url("assets/foodsBg.jpg");
+  height: 40vh;
+  background-size: 100% 100%;
+
+ }
+.subscribe {
+  text-align: center;
+  margin-top: 5%;
+  color: white;
+}
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#input-email {
+  opacity: 0.3;
+  width: 40%;
+
+}
+#subscribe-btn {
+  background-color: #F15A29;
+  width: 12%;
+  margin-left: 6%;
+}
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+#footer-menu {
+  vertical-align: middle;
+  font-size: 40px;
+}
+.footerlogos {
+  margin-top: 2%;
+  margin-bottom:5%;
+}
+#pinterest {
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
+.img-set {
+  display: inline-block;
+}
