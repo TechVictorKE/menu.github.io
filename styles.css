@@ -2,61 +2,23 @@ body {
   text-align: center;
 }
 
-.section1 .logo {
+.section1 {
   background-image: url("assets/landing.jpg");
-  background-size: cover;
+  background-color: bisque;
 }
 
-.section2 {
-  margin-left: -10%;
-  margin-right: -10%;
-  text-align: center;
-  color: white;
-  font-style: italic;
-  font-size: 20px;
+.column {
+  float: left;
+  width: 25%;
 }
 
-@media (min-width: 992px) {
-  .col-md-3 {
-      padding-left: 0;
-      padding-right: 0;
-  }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.happyhour {
-  padding-top: 41px;
-  padding-bottom: 45px;
-  background-color: lightgrey;
-  margin-bottom: 0;
-}
-
-.partytime {
-  padding-top: 41px;
-  padding-bottom: 45px;
-  background-color: #F15A29;
-}
-
-#breakfast {
-  background-image: url("assets/breakfast.jpg");
-  background-size: cover;
-  padding: 100px;
-}
-
-#lunch {
-  background-image: url("assets/lunch.jpg");
-  background-size: cover;
-  padding: 100px;
-}
-
-#dinner {
-  background-image: url("assets/dinner.jpg");
-  background-size: cover;
-  padding: 100px;
-}
-
-#dinner:hover,
-#lunch:hover,
-#breakfast:hover {
-  color: #F15A29;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
