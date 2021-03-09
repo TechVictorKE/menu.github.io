@@ -44,7 +44,6 @@ body{
 img {margin: 2px;}
 }
 
-/* test */
 #foods {
   background-image: url("assets/foodsBg.jpg");
   height: 70vh;
@@ -98,6 +97,10 @@ background-color: inherit;
   box-shadow: 0 0 4px 4px #ccc;
 }
 
+tr {
+  background-color: white;
+}
+
 .customer-color {
   color:  #F15A29;
 }
@@ -123,6 +126,7 @@ background-color: inherit;
   background-image: url("assets/foodsBg.jpg");
   height: 40vh;
   background-size: 100% 100%;
+  text-align: center;
 
  }
 .subscribe {
